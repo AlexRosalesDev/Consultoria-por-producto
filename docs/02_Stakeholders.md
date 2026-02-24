@@ -1,3 +1,12 @@
+---
+Responsable: Elias Churqui Zarate
+Rol: Developer
+Sprint: 1
+Fecha: 24/02/2026
+Estado: Completado
+Revisado por: Jose Alcozer (Product Owner)
+---
+
 # 2. Stakeholders y Reglas de Negocio
 
 ## 2.1. Fase A: Definición del Contexto y Stakeholders
@@ -11,13 +20,18 @@ Antes de hablar de funciones, debemos entender quiénes interactúan con el sist
 
 | Rol | Nombre/Cargo | Nivel de Influencia | Expectativa Principal |
 |-----|--------------|---------------------|----------------------|
-| **Cliente / Patrocinador** | Pro-Rural / COSUDE - Vicepresidente | Alto | Cumplimiento del resultado 1 del convenio entrega en 45 días |
-| **Usuario Final** | Responsable de GeoBolivia/IDE-EPB | Alto | Obtener una herramienta funcional alineada a la normativa técnica de GeoBolivia |
-| **Equipo Técnico** | Alex Rosales Quispe | Alto | Desarrollo exitoso del sistema |
-| **Equipo Técnico** | Jose Alcozer Martinez | Alto | Implementación de funcionalidades core |
-| **Equipo Técnico** | Elias Churqui Zarate | Alto | Análisis y documentación de requisitos |
-| **Equipo Técnico** | Kevin Abdias Flores Escobar | Alto | Documentación técnica y pruebas |
-| **Equipo Técnico** | Tonny Edzon Torrez Cruz | Alto | Aseguramiento de calidad y rendimiento |
+| **Cliente / Patrocinador** | Pro-Rural / COSUDE - Vicepresidente | Alto | Cumplimiento del resultado 1 del convenio (entrega en 45 días) |
+| **Usuario Final** | Responsable de GeoBolivia/IDE-EPB | Alto | Herramienta funcional alineada a la normativa técnica de GeoBolivia |
+
+### Equipo de Desarrollo (Scrum)
+
+| Rol Scrum | Nombre | Nivel de Influencia | Expectativa Principal |
+|-----------|--------|---------------------|----------------------|
+| **Scrum Master** | Alex Rosales Quispe | Alto | Facilitar el proceso Scrum y asegurar la calidad de los entregables |
+| **Product Owner** | Jose Alcozer Martinez | Alto | Maximizar el valor del producto y priorizar el backlog |
+| **Developer** | Elias Churqui Zarate | Alto | Documentar stakeholders y reglas de negocio |
+| **Developer** | Kevin Abdias Flores Escobar | Alto | Especificar reportes y criterios de aceptación |
+| **Developer** | Tonny Edzon Torrez Cruz | Alto | Definir requerimientos no funcionales y métricas de calidad |
 
 ## 2.3. Reglas de Negocio y Restricciones
 

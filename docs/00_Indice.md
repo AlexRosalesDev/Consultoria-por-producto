@@ -1,3 +1,12 @@
+---
+Responsable: Alex Rosales Quispe
+Rol: Scrum Master
+Sprint: 1
+Fecha: 24/02/2026
+Estado: Completado
+Revisado por: Jose Alcozer (Product Owner)
+---
+
 # Índice de Documentación - Proyecto GeoBolivia
 
 ## Estructura del Documento de Requerimientos
@@ -36,7 +45,13 @@
   - Validación y Cierre
   - Checklist de Aprobación
 
----
+## Distribución de Responsabilidades - Sprint 1
 
-**Última actualización:** 23/02/2026
-**Versión del Documento:** 1.0
+| Archivo | Responsable | Rol | Prioridad |
+|---------|-------------|-----|-----------|
+| 00_Indice.md | Alex Rosales | Scrum Master | Alta |
+| 01_Introduccion_y_Contexto.md | Alex Rosales | Scrum Master | Alta |
+| 02_Stakeholders.md | Elias Churqui | Developer | Alta |
+| 03_RF_Modulo_Principal.md | Jose Alcozer | Product Owner | MUST |
+| 04_RF_Reportes.md | Kevin Flores | Developer | SHOULD |
+| 05_RNF_y_Restricciones.md | Tonny Torrez | Developer | Alta |

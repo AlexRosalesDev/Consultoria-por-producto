@@ -1,3 +1,12 @@
+---
+Responsable: Kevin Abdias Flores Escobar
+Rol: Developer
+Sprint: 1
+Fecha: 24/02/2026
+Prioridad: SHOULD (Debería tener)
+Estado: Completado
+Revisado por: Jose Alcozer (Product Owner)
+---
 # 4. Requerimientos Funcionales - Reportes y Análisis
 
 ## 4.1. Requerimientos Funcionales de Reportes (Prioridad SHOULD/COULD)

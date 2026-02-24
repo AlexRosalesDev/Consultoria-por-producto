@@ -1,3 +1,12 @@
+---
+Responsable: Jose Alcozer Martinez
+Rol: Product Owner
+Sprint: 1
+Fecha: 24/02/2026
+Prioridad: MUST (Debe tener)
+Estado: Completado
+Aprobado por: Cliente (Pro-Rural/COSUDE)
+---
 # 3. Requerimientos Funcionales - Módulo Principal
 
 ## 3.1. Clasificación de Requerimientos

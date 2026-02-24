@@ -1,3 +1,12 @@
+---
+Responsable: Tonny Edzon Torrez Cruz
+Rol: Developer
+Sprint: 1
+Fecha: 24/02/2026
+Categoría: Requerimientos No Funcionales
+Estado: Completado
+Revisado por: Jose Alcozer (Product Owner)
+---
 # 5. Requerimientos No Funcionales, Técnicas de Elicitación y Cierre
 
 ## 5.1. Fase B: Técnicas de Elicitación (Extracción de Información)
