@@ -6,7 +6,7 @@ Fecha: 24/02/2026
 Estado: Completado
 Revisado por: Jose Alcozer (Product Owner)
 ---
-
+[02_Stakeholders.md](02_Stakeholders.md)
 ## 1.2. Ficha del Proyecto
 
 | Concepto | Descripción |

@@ -6,6 +6,7 @@ Fecha: 24/02/2026
 Estado: Completado
 Revisado por: Jose Alcozer (Product Owner)
 ---
+[01_Introduccion_y_Contexto.md](01_Introduccion_y_Contexto.md) 
 
 # Índice de Documentación - Proyecto GeoBolivia
 
@@ -44,14 +45,3 @@ Revisado por: Jose Alcozer (Product Owner)
   - Requerimientos No Funcionales (URPS+)
   - Validación y Cierre
   - Checklist de Aprobación
-
-## Distribución de Responsabilidades - Sprint 1
-
-| Archivo | Responsable | Rol | Prioridad |
-|---------|-------------|-----|-----------|
-| 00_Indice.md | Alex Rosales | Scrum Master | Alta |
-| 01_Introduccion_y_Contexto.md | Alex Rosales | Scrum Master | Alta |
-| 02_Stakeholders.md | Elias Churqui | Developer | Alta |
-| 03_RF_Modulo_Principal.md | Jose Alcozer | Product Owner | MUST |
-| 04_RF_Reportes.md | Kevin Flores | Developer | SHOULD |
-| 05_RNF_y_Restricciones.md | Tonny Torrez | Developer | Alta |

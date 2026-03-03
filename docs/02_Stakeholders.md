@@ -6,7 +6,7 @@ Fecha: 24/02/2026
 Estado: Completado
 Revisado por: Jose Alcozer (Product Owner)
 ---
-
+[03_RF_Modulo_Principal.md](03_RF_Modulo_Principal.md)
 # 2. Stakeholders y Reglas de Negocio
 
 ## 2.1. Fase A: Definición del Contexto y Stakeholders
