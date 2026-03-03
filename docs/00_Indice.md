@@ -5,8 +5,6 @@
 **Fecha de Análisis:** [Fecha actual]
 **Versión SRS:** 1.0 (Derivación exhaustiva del TDR)
 
----
-
 ## ESTRUCTURA COMPLETA DEL DOCUMENTO
 
 ### 1. INTRODUCCIÓN Y CONTEXTO (`01_Introduccion_y_Contexto.md`)
@@ -135,4 +133,4 @@
 | Producto 3: Aplicación Dashboard | RF-18 al RF-28, RNF-01 al RNF-07, RNF-16 al RNF-18 |
 | Producto 4: Informe Final + Documentación | RNF-01, RNF-02, RNF-12 al RNF-15, RTR-08 |
 
-(01_Introduccion_y_Contexto.md)
+[01_Introduccion_y_Contexto.md](01_Introduccion_y_Contexto.md)

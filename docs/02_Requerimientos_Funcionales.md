@@ -206,4 +206,4 @@
 | Producto 4: Informe Final | RF-01, RF-02 (documentados) |
 | Resultado 2: Propuestas para fondos | RF-25, RF-26, RF-27, RF-28 |
 
-(03_Requerimeintos_No_Funcionales.md)
+[03_Requerimeintos_No_Funcionales.md](03_Requerimeintos_No_Funcionales.md)

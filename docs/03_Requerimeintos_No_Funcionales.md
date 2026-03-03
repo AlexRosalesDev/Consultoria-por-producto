@@ -132,4 +132,4 @@
 - **Justificación:** El sistema debe integrarse como nodo de GeoBolivia.
 - **Métrica de Éxito:** Los servicios cumplen con estándares OGC (WMS, WFS) si aplica, y los metadatos siguen el perfil IDE-EPB.
 
-(04_Restricciones.md)
+[04_Restricciones.md](04_Restricciones.md)

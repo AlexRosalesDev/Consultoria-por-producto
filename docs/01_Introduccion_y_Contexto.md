@@ -157,4 +157,4 @@ Basado en análisis exhaustivo de todas las secciones del TDR (1, 3, 5, 6, 7, 8,
 
 ---
 
-(02_Requerimientos_Funcionales.md)
+[02_Requerimientos_Funcionales.md](02_Requerimientos_Funcionales.md)

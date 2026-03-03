@@ -37,9 +37,3 @@ Este SRS debe ser utilizado como:
 - Guía para la validación con stakeholders
 - Referencia para la elaboración de propuestas técnicas
 - Checklist para la aceptación de productos
-
----
-
-**Elaborado por:** Analista de Requerimientos
-**Fecha:** [Fecha actual]
-**Versión:** 1.0 - Derivación exhaustiva del TDR original
