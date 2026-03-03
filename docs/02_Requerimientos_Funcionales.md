@@ -1,84 +1,3 @@
-### ESTRATEGIA DE GESTIÓN POR STAKEHOLDER
-
-| Cuadrante | Stakeholders | Estrategia |
-|-----------|--------------|------------|
-| **Alto Poder - Alto Interés** (Gestionar de cerca) | S-01, S-02, S-04, S-05, S-06, S-12, S-13 | • Reuniones de seguimiento semanales<br>• Aprobaciones formales por escrito<br>• Involucrar en validaciones tempranas<br>• Reportes de avance detallados |
-| **Alto Poder - Bajo Interés** (Mantener satisfechos) | S-03, S-14 | • Informar sobre hitos importantes<br>• Garantizar cumplimiento administrativo<br>• No sobrecargar con detalles técnicos |
-| **Bajo Poder - Alto Interés** (Mantener informados) | S-07, S-08 | • Entrevistas para entender necesidades<br>• Validación de usabilidad<br>• Documentación clara para transferencia |
-| **Bajo Poder - Bajo Interés** (Monitorear) | S-09, S-10, S-11 | • Considerar en diseño (metadatos, usabilidad)<br>• No son prioritarios para decisiones |
-
-## 1.6 ALCANCE DEL SISTEMA
-
-### INCLUYE (Dentro del alcance - basado en TDR)
-
-**Procesamiento:**
-- Información geográfica de cambio climático
-- Información estadística de cambio climático
-- Datos del sector agropecuario
-- Datos del sector agua/bosques
-- Datos de instituciones públicas
-- Datos de instituciones privadas
-
-**Sistematización:**
-- Organización de datos geoespaciales
-- Catalogación por categorías
-- Estructuración para consultas eficientes
-
-**Análisis:**
-- Estructura de datos existente en GeoBolivia
-- Base de datos actual
-- Propuesta de mejora estructural
-
-**Desarrollo:**
-- Tableros de control (dashboards) web
-- Visualización de mapas interactivos
-- Actualización en tiempo real
-- Acceso desde cualquier dispositivo
-- Búsquedas y consultas
-- Descargas de información
-
-**Documentación:**
-- Manual de usuario
-- Manual de administrador
-- Scripts de mantenimiento
-- Documentación del sistema
-- Código fuente comentado
-
-### NO INCLUYE (Fuera de alcance - basado en TDR)
-
-- **Generación de información primaria:** Solo se procesa información existente
-- **Modificaciones a infraestructura base de GeoBolivia:** El sistema debe integrarse, no reemplazar
-- **Capacitación presencial:** Solo manuales escritos
-- **Desarrollo de funcionalidades no especificadas:** Estricto apego al TDR
-- **Trabajo de campo:** No se contemplan visitas a instituciones proveedoras (solo análisis documental)
-
-## 1.7 DURACIÓN, PLAZOS Y CONDICIONES CONTRACTUALES
-
-| Concepto | Detalle | Fuente |
-|----------|---------|--------|
-| Duración total | 45 días calendario | Sección 8 |
-| Dedicación | Exclusiva (hasta 19 días calendario al mes) | Sección 8 |
-| Producto 1 | 3 días calendario | Sección 4 |
-| Revisión de productos | 2 días hábiles | Sección 9 |
-| Ajustes de observaciones | 2 días hábiles | Sección 9 |
-| Modalidad de contratación | Invitación pública | Sección 7 |
-| Presupuesto máximo | Bs. 45.000 (Cuarenta y cinco mil 00/100 bolivianos) | Sección 11 |
-| Forma de pago | Único pago contra entrega y aprobación del total de productos | Sección 11 |
-| Requisito de pago | Factura (excluyente) | Sección 11 |
-
-## 1.8 PROPIEDAD INTELECTUAL Y CONFIDENCIALIDAD
-
-**Propiedad Intelectual (Sección 16):**
-> *"La documentación que se produzca bajo los términos de esta consultoría será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL, quienes tendrán los derechos de propiedad exclusivos sobre la misma. Este derecho continuará vigente aún concluida la relación contractual de las partes."*
-
-**Confidencialidad (Sección 15):**
-> *"El/La postulante, deberá comprometerse a guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio."*
-
----
-
-# [ARCHIVO: 02_Requerimientos_Funcionales.md]
-
-```markdown
 # 2. REQUERIMIENTOS FUNCIONALES (RF) - EXTREMADAMENTE DETALLADOS
 
 **Total de Requerimientos Funcionales: 28**
@@ -286,3 +205,5 @@
 | Producto 3: Aplicación Dashboard | RF-18, RF-19, RF-20, RF-21, RF-22, RF-23, RF-24 |
 | Producto 4: Informe Final | RF-01, RF-02 (documentados) |
 | Resultado 2: Propuestas para fondos | RF-25, RF-26, RF-27, RF-28 |
+
+(03_Requerimeintos_No_Funcionales.md)

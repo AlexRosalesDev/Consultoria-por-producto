@@ -134,3 +134,5 @@
 | Producto 2: Informe estructura de datos | RF-07 al RF-13, RF-15, RF-16, RNF-12 |
 | Producto 3: Aplicación Dashboard | RF-18 al RF-28, RNF-01 al RNF-07, RNF-16 al RNF-18 |
 | Producto 4: Informe Final + Documentación | RNF-01, RNF-02, RNF-12 al RNF-15, RTR-08 |
+
+(01_Introduccion_y_Contexto.md)

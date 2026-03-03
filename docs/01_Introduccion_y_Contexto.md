@@ -79,27 +79,82 @@ Basado en análisis exhaustivo de todas las secciones del TDR (1, 3, 5, 6, 7, 8,
 | **S-13** | Usuario | **Consultor Externo** | Postulante / Consultor seleccionado | • Ejecuta la consultoría<br>• Desarrolla los productos<br>• Entrega documentación | **Alta** | **Alto** | Cumplir objetivos, recibir pago único de Bs. 45.000 | Todo el TDR |
 | **S-14** | Administrativo | **Gestor de Pagos** | PRO-RURAL (área administrativa) | • Procesa factura<br>• Realiza el pago único | **Media** | **Bajo** | Recibir factura válida para procesar pago | Sección 11: "excluyente" |
 
-### MAPA DE PODER-INTERÉS (MATRIZ ESTRATÉGICA)
-ALTO PODER
-↑
-| • S-01 PRO-RURAL (Contratante)
-| • S-02 Vicepresidencia (Cliente)
-| • S-04 Supervisor PRO-RURAL
-| • S-05 Validador Vicepresidencia
-| • S-06 Responsable GeoBolivia
-| • S-12 IDE-EPB (Normativa)
-| • S-13 Consultor (Ejecutor)
-|
-| • S-07 Técnicos GeoBolivia
-| • S-08 Instituciones Públicas
-|
-|------------------------------→
-| • S-03 COSUDE (Financiador)
-| • S-14 Gestor Pagos
-|
-| • S-09 Instituciones Privadas
-| • S-10 Técnicos otras instituciones
-| • S-11 Pequeños productores
-↓
-BAJO PODER
-BAJO INTERÉS ALTO INTERÉS
+### ESTRATEGIA DE GESTIÓN POR STAKEHOLDER
+
+| Cuadrante | Stakeholders | Estrategia |
+|-----------|--------------|------------|
+| **Alto Poder - Alto Interés** (Gestionar de cerca) | S-01, S-02, S-04, S-05, S-06, S-12, S-13 | • Reuniones de seguimiento semanales<br>• Aprobaciones formales por escrito<br>• Involucrar en validaciones tempranas<br>• Reportes de avance detallados |
+| **Alto Poder - Bajo Interés** (Mantener satisfechos) | S-03, S-14 | • Informar sobre hitos importantes<br>• Garantizar cumplimiento administrativo<br>• No sobrecargar con detalles técnicos |
+| **Bajo Poder - Alto Interés** (Mantener informados) | S-07, S-08 | • Entrevistas para entender necesidades<br>• Validación de usabilidad<br>• Documentación clara para transferencia |
+| **Bajo Poder - Bajo Interés** (Monitorear) | S-09, S-10, S-11 | • Considerar en diseño (metadatos, usabilidad)<br>• No son prioritarios para decisiones |
+
+## 1.6 ALCANCE DEL SISTEMA
+
+### INCLUYE (Dentro del alcance - basado en TDR)
+
+**Procesamiento:**
+- Información geográfica de cambio climático
+- Información estadística de cambio climático
+- Datos del sector agropecuario
+- Datos del sector agua/bosques
+- Datos de instituciones públicas
+- Datos de instituciones privadas
+
+**Sistematización:**
+- Organización de datos geoespaciales
+- Catalogación por categorías
+- Estructuración para consultas eficientes
+
+**Análisis:**
+- Estructura de datos existente en GeoBolivia
+- Base de datos actual
+- Propuesta de mejora estructural
+
+**Desarrollo:**
+- Tableros de control (dashboards) web
+- Visualización de mapas interactivos
+- Actualización en tiempo real
+- Acceso desde cualquier dispositivo
+- Búsquedas y consultas
+- Descargas de información
+
+**Documentación:**
+- Manual de usuario
+- Manual de administrador
+- Scripts de mantenimiento
+- Documentación del sistema
+- Código fuente comentado
+
+### NO INCLUYE (Fuera de alcance - basado en TDR)
+
+- **Generación de información primaria:** Solo se procesa información existente
+- **Modificaciones a infraestructura base de GeoBolivia:** El sistema debe integrarse, no reemplazar
+- **Capacitación presencial:** Solo manuales escritos
+- **Desarrollo de funcionalidades no especificadas:** Estricto apego al TDR
+- **Trabajo de campo:** No se contemplan visitas a instituciones proveedoras (solo análisis documental)
+
+## 1.7 DURACIÓN, PLAZOS Y CONDICIONES CONTRACTUALES
+
+| Concepto | Detalle | Fuente |
+|----------|---------|--------|
+| Duración total | 45 días calendario | Sección 8 |
+| Dedicación | Exclusiva (hasta 19 días calendario al mes) | Sección 8 |
+| Producto 1 | 3 días calendario | Sección 4 |
+| Revisión de productos | 2 días hábiles | Sección 9 |
+| Ajustes de observaciones | 2 días hábiles | Sección 9 |
+| Modalidad de contratación | Invitación pública | Sección 7 |
+| Presupuesto máximo | Bs. 45.000 (Cuarenta y cinco mil 00/100 bolivianos) | Sección 11 |
+| Forma de pago | Único pago contra entrega y aprobación del total de productos | Sección 11 |
+| Requisito de pago | Factura (excluyente) | Sección 11 |
+
+## 1.8 PROPIEDAD INTELECTUAL Y CONFIDENCIALIDAD
+
+**Propiedad Intelectual (Sección 16):**
+> *"La documentación que se produzca bajo los términos de esta consultoría será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL, quienes tendrán los derechos de propiedad exclusivos sobre la misma. Este derecho continuará vigente aún concluida la relación contractual de las partes."*
+
+**Confidencialidad (Sección 15):**
+> *"El/La postulante, deberá comprometerse a guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio."*
+
+---
+
+(02_Requerimientos_Funcionales.md)

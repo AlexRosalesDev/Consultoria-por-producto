@@ -131,3 +131,5 @@
 - **Fuente TDR:** Producto 2: "normativa técnica establecida en la Infraestructura de Datos Espaciales del Estado Plurinacional de Bolivia y su nodo GeoBolivia"
 - **Justificación:** El sistema debe integrarse como nodo de GeoBolivia.
 - **Métrica de Éxito:** Los servicios cumplen con estándares OGC (WMS, WFS) si aplica, y los metadatos siguen el perfil IDE-EPB.
+
+(04_Restricciones.md)
