@@ -118,9 +118,10 @@
 |-----------|----------|-----------|
 | Stakeholders | 14 | S-01 al S-14 |
 | Requerimientos Funcionales | 28 | RF-01 al RF-28 |
-| Requerimientos No Funcionales | 18 | RNF-01 al RNF-18 |
+| Requerimientos No Funcionales | 19 | RNF-01 al RNF-19 |
+| Requerimientos DevOps | 4 | RNF-20 al RNF-23 |
 | Restricciones | 13 | RTR-01 al RTR-13 |
-| **TOTAL ELEMENTOS** | **73** | - |
+| **TOTAL ELEMENTOS** | **78** | - |
 
 ---
 

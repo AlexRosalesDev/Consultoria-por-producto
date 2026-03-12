@@ -132,4 +132,34 @@
 - **Justificación:** El sistema debe integrarse como nodo de GeoBolivia.
 - **Métrica de Éxito:** Los servicios cumplen con estándares OGC (WMS, WFS) si aplica, y los metadatos siguen el perfil IDE-EPB.
 
+## 3.6 ENTREGA DE ACTIVOS
+
+### RNF-19: Entrega de activos digitales
+- **Descripción:** El consultor debe entregar todos los activos digitales generados (código, bases de datos, manuales, configuraciones) a la Vicepresidencia.
+- **Fuente TDR:** Sección 16 (Propiedad Intelectual)
+- **Justificación:** Garantizar que la institución pueda usar el sistema sin depender del consultor.
+- **Criterio de Aceptación:** Se entrega un paquete con código fuente, base de datos, manuales y configuraciones.
+
+## 3.7 REQUERIMIENTOS DEVOPS
+
+### RNF-20: Control de versiones con Git
+- **Descripción:** Todo el código debe estar en Git con commits descriptivos.
+- **Justificación:** Poder ver el historial de cambios y volver a versiones anteriores.
+- **Criterio de Aceptación:** Repositorio Git entregado con historial completo.
+
+### RNF-21: Documentación del código
+- **Descripción:** El código debe tener comentarios explicativos.
+- **Justificación:** Que otro programador pueda entenderlo después.
+- **Criterio de Aceptación:** Las partes complejas del código tienen comentarios.
+
+### RNF-22: Scripts de mantenimiento
+- **Descripción:** Entregar scripts para tareas como respaldos y actualizaciones.
+- **Justificación:** Automatizar tareas repetitivas.
+- **Criterio de Aceptación:** Scripts funcionando y documentados.
+
+### RNF-23: Guía de instalación
+- **Descripción:** Manual paso a paso para instalar el sistema desde cero.
+- **Justificación:** Si el servidor falla, poder reinstalarlo fácilmente.
+- **Criterio de Aceptación:** Guía que permita instalar el sistema en menos de 2 horas.
+
 [04_Restricciones.md](04_Restricciones.md)
