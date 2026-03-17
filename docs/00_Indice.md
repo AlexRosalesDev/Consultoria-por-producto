@@ -1,4 +1,4 @@
-# ÍNDICE MAESTRO - ESPECIFICACIÓN DE REQUERIMIENTOS
+# ÍNDICE - ESPECIFICACIÓN DE REQUERIMIENTOS
 
 **Proyecto:** Consultoría en Desarrollo de Sistemas - GeoBolivia
 **Documento Fuente:** TDR "Consultor en Desarrollo de Sistemas - 2da Convocatoria" (PRO-RURAL / Vicepresidencia)
