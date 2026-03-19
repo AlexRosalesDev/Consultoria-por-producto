@@ -1,4 +1,4 @@
-# 1. INTRODUCCIÓN Y CONTEXTO - ANÁLISIS COMPLETO
+# 1. INTRODUCCIÓN Y CONTEXTO 
 
 ## 1.1 ANTECEDENTES DEL PROYECTO (Fuente: Sección 1 - Antecedentes)
 
@@ -39,7 +39,7 @@ La Agencia Suiza para el Desarrollo y la Cooperación (COSUDE), junto al Estado 
 | PRO-RURAL | Administrador / Contratante | Implementador del Proyecto BBC |
 | GeoBolivia/IDE-EPB | Beneficiario / Usuario Final | Dependiente de Vicepresidencia |
 
-## 1.3 OBJETIVO DE LA CONSULTORÍA (TEXTUAL DEL TDR)
+## 1.3 OBJETIVO DE LA CONSULTORÍA 
 
 > *"Procesar y sistematizar la información geográfica y estadística en el ámbito de cambio climático referida al sector agropecuario y agua/bosques de las instituciones públicas y/o privadas."*
 
@@ -55,7 +55,7 @@ La Agencia Suiza para el Desarrollo y la Cooperación (COSUDE), junto al Estado 
 **Resultado 2 (Contextual - para entendimiento del fin último):**
 Con base en información actualizada de Cambio Climático, la Vicepresidencia elaborará y gestionará propuestas o notas conceptuales de proyecto de adaptación en el sector agropecuario y agua/bosques con énfasis en pequeños productores y presentadas a un fondo climático vertical.
 
-## 1.5 ANÁLISIS DE STAKEHOLDERS - EXTREMADAMENTE DETALLADO
+## 1.5 ANÁLISIS DE STAKEHOLDERS 
 
 ### Metodología de Identificación
 Basado en análisis exhaustivo de todas las secciones del TDR (1, 3, 5, 6, 7, 8, 9, 10, 15, 16)
