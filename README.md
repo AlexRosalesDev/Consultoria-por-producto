@@ -3,8 +3,7 @@
 ## Sistema de Tableros de Control Geoespacial para Cambio Climático
 
 ### Descripción General
-Este repositorio contiene la **Especificación de Requerimientos de Software (SRS)** para la consultoría de "Desarrollo de Sistemas" de GeoBolivia, derivada exclusivamente de los Términos de Referencia (TDR) oficiales emitidos por PRO-RURAL y la Vicepresidencia del Estado Plurinacional de Bolivia.
-
+Este repositorio contiene la **Especificación de Requerimientos de Software (SRS)** para la consultoría de "Desarrollo de Sistemas" de GeoBolivia
 ### Documentación Incluida
 
 | Archivo | Contenido | Elementos |

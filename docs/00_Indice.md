@@ -108,7 +108,6 @@
 - Confidencialidad
 - Modalidad de contratación
 
----
 
 ## RESUMEN CUANTITATIVO
 
@@ -121,7 +120,6 @@
 | Restricciones | 13 | RTR-01 al RTR-13 |
 | **TOTAL ELEMENTOS** | **78** | - |
 
----
 
 ## REFERENCIA CRUZADA CON PRODUCTOS TDR
 

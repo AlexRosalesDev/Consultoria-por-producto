@@ -23,7 +23,6 @@
 - **Justificación:** La transferencia efectiva requiere que el sistema sea comprensible.
 - **Métrica de Éxito:** Un técnico de GeoBolivia con perfil promedio debe poder realizar las tareas principales (consultar, filtrar, descargar) sin asistencia después de 2 horas de exploración.
 
----
 
 ## 3.2 RENDIMIENTO (RNF-04 al RNF-07)
 
@@ -51,7 +50,6 @@
 - **Justificación:** Las consultas geoespaciales pueden ser computacionalmente costosas.
 - **Métrica de Éxito:** Las consultas de datos geoespaciales con hasta 10,000 registros responden en menos de 2 segundos.
 
----
 
 ## 3.3 SEGURIDAD (RNF-08 al RNF-11)
 
@@ -79,7 +77,6 @@
 - **Justificación:** No todos los usuarios deben poder modificar configuraciones o datos.
 - **Métrica de Éxito:** Existe al menos un rol de administrador con acceso a funciones de gestión, y roles de usuario con acceso solo a consulta/visualización.
 
----
 
 ## 3.4 MANTENIBILIDAD (RNF-12 al RNF-15)
 

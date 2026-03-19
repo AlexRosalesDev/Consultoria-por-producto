@@ -25,7 +25,6 @@
 - **Fuente TDR:** Sección 9: "La revisión del Informe Final... no superará los 2 (dos) días hábiles y el plazo de ajuste... no superará los 2 (dos) días hábiles"
 - **Implicación:** El cronograma debe considerar estos ciclos de revisión. Respuestas rápidas a observaciones son críticas.
 
----
 
 ## 4.2 RESTRICCIONES DE PRESUPUESTO (RTR-05 al RTR-07)
 
@@ -44,7 +43,6 @@
 - **Fuente TDR:** Sección 11: "El pago será realizado contra entrega de factura (requisito excluyente)"
 - **Implicación:** El consultor debe estar inscrito en NIT y habilitado para facturar. Sin factura, no hay pago.
 
----
 
 ## 4.3 RESTRICCIONES TÉCNICAS (RTR-08 al RTR-10)
 
@@ -63,7 +61,6 @@
 - **Fuente TDR:** Sección 5.1: "Cursos de manejo de bases de datos y/o Cursos en tecnología Front-end y/o Cursos en uso de tecnologías de Inteligencia de negocios y/o Cursos en uso de tecnologías Python con framework Django"
 - **Implicación:** Aunque no es restrictivo, usar estas tecnologías aumenta probabilidad de éxito y alineación con expectativas.
 
----
 
 ## 4.4 RESTRICCIONES CONTRACTUALES Y LEGALES (RTR-11 al RTR-13)
 
@@ -82,7 +79,6 @@
 - **Fuente TDR:** Sección 7: "Invitación pública, de acuerdo a procedimientos establecidos por Pro-Rural"
 - **Implicación:** Existe un proceso de selección competitivo. Se deben presentar los documentos requeridos (carta, CV, propuestas técnica y económica).
 
----
 
 ## 4.5 MATRIZ DE CORRELACIÓN RESTRICCIONES - PRODUCTOS TDR
 

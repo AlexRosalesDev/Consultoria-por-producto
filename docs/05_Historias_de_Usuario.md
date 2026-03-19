@@ -15,7 +15,6 @@
 | RF-02, RF-03, RF-23, RF-24 | HU-09 | Uso analítico para decisiones               |
 | RF-01, RF-13, RF-14        | HU-10 | Integración y limpieza de datos             |
 
----
 
 ## 5.2 Priorización del Product Backlog
 
@@ -23,7 +22,6 @@
 * **Should:** Funcionalidades importantes
 * **Could:** Funcionalidades opcionales
 
----
 
 ## 5.3 Historias de Usuario
 
@@ -39,7 +37,6 @@
 2. Debe actualizarse según filtros aplicados.
 3. Debe estar disponible vía navegador web.
 
----
 
 ### HU-02 (Must)
 
@@ -53,7 +50,6 @@
 2. Al seleccionar un resultado, el mapa debe centrarse automáticamente.
 3. La búsqueda debe funcionar con nombres válidos cargados en el sistema.
 
----
 
 ### HU-03 (Should)
 
@@ -67,7 +63,6 @@
 2. El resultado debe reflejarse en mapa y gráficos.
 3. Debe limitarse a información existente en la base validada.
 
----
 
 ### HU-04 (Must)
 
@@ -81,7 +76,6 @@
 2. El sistema debe permitir descargar GeoJSON o shapefile para datos geográficos según disponibilidad.
 3. Si la información es restringida, el sistema debe verificar el rol del usuario antes de habilitar la descarga.
 
----
 
 ### HU-05 (Must)
 
@@ -95,7 +89,6 @@
 2. El sistema debe validar el archivo antes de insertarlo.
 3. Si hay errores, debe mostrar mensajes claros y no cargar el archivo a producción.
 
----
 
 ### HU-06 (Must)
 
@@ -109,7 +102,6 @@
 2. La información restringida debe requerir autenticación.
 3. Las descargas sensibles deben estar condicionadas por rol.
 
----
 
 ### HU-07 (Must)
 
@@ -123,7 +115,6 @@
 2. La estructura publicada debe poder validarse técnicamente.
 3. La solución debe respetar la normativa técnica institucional.
 
----
 
 ### HU-08 (Must)
 
@@ -137,7 +128,6 @@
 2. Los datos aprobados deben reflejarse en el dashboard.
 3. El proceso no debe requerir intervención del desarrollador.
 
----
 
 ### HU-09 (Must)
 
@@ -151,7 +141,6 @@
 2. Debe permitir análisis territorial básico.
 3. Debe facilitar interpretación mediante indicadores visibles.
 
----
 
 ### HU-10 (Must)
 
@@ -164,5 +153,3 @@
 1. La carga debe pasar por validación previa.
 2. Deben revisarse estructura, geometrías y duplicados.
 3. Solo las cargas exitosas pasan a producción.
-
----

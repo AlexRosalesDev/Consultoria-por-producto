@@ -155,6 +155,5 @@ La documentación que se produzca bajo los términos de esta consultoría será 
 **Confidencialidad (Sección 15):**
 El/La postulante, deberá comprometerse a guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio
 
----
 
 [02_Requerimientos_Funcionales.md](02_Requerimientos_Funcionales.md)
