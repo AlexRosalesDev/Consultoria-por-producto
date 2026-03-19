@@ -1,159 +1,47 @@
-# 3. REQUERIMIENTOS NO FUNCIONALES Y DEVOPS - EXTREMADAMENTE DETALLADOS
+# 3. Requerimientos No Funcionales
 
-**Total de Requerimientos No Funcionales: 18**
-**Numeración:** RNF-01 al RNF-18
+Los siguientes requerimientos no funcionales fueron definidos con base en el TDR del proyecto y en la entrevista realizada al stakeholder. Se incluyen atributos de calidad, restricciones operativas del sistema y requisitos técnicos de entrega relacionados con mantenimiento, despliegue y sostenibilidad institucional.
 
-## 3.1 USABILIDAD (RNF-01 al RNF-03)
+| ID | Categoría | Descripción técnica | Métrica de éxito | Prioridad |
+|---|---|---|---|---|
+| RNF-01 | Usabilidad | La interfaz del sistema debe estar en español. | El 100% de textos visibles, mensajes y manuales entregados están en español. | Must |
+| RNF-02 | Usabilidad | El sistema debe incluir manual de usuario y manual de administrador. | Se entregan ambos manuales con procedimientos de uso, administración y resolución básica de errores. | Must |
+| RNF-03 | Usabilidad | El módulo administrativo debe ser comprensible para personal no programador. | Un técnico institucional puede ejecutar una carga guiada usando la interfaz y la plantilla definida. | Should |
+| RNF-04 | Rendimiento | La carga inicial del dashboard debe mantenerse en un tiempo razonable. | El dashboard carga en menos de 5 segundos en condiciones normales de prueba. | Should |
+| RNF-05 | Rendimiento | Los cambios aprobados en datos deben reflejarse con baja latencia en la visualización. | Los cambios validados se reflejan en el tablero en menos de 60 segundos. | Must |
+| RNF-06 | Rendimiento | Las consultas espaciales y por atributos frecuentes deben responder sin degradación severa. | Las consultas comunes mantienen tiempos de respuesta operables para el usuario. | Should |
+| RNF-07 | Seguridad | El sistema debe diferenciar acceso público y acceso restringido según rol. | Un usuario sin permisos no puede visualizar ni descargar información sensible. | Must |
+| RNF-08 | Seguridad | La solución debe resguardar la confidencialidad de la información sensible tratada en la consultoría. | La arquitectura y operación evitan exposición de datos restringidos. | Must |
+| RNF-09 | Integridad | La carga de datos debe validar estructura, geometrías, duplicados y consistencia antes de publicar información. | Las cargas inválidas son rechazadas con mensajes claros y no alteran la base principal. | Must |
+| RNF-10 | Integridad | El sistema debe mantener trazabilidad básica de las cargas realizadas. | Cada carga registra fecha, estado, tipo de archivo y resultado de validación. | Should |
+| RNF-11 | Control de acceso | El sistema debe implementar control de acceso para funciones administrativas. | Existe al menos un rol administrador y otro de consulta pública o restringida. | Must |
+| RNF-12 | Mantenibilidad | El sistema debe entregarse con documentación técnica suficiente para mantenimiento institucional. | Se entrega documentación del sistema, componentes, dependencias y procedimientos básicos. | Must |
+| RNF-13 | Mantenibilidad | Deben entregarse scripts de mantenimiento cuando formen parte de la solución. | Los scripts entregados son funcionales y están documentados. | Should |
+| RNF-14 | Mantenibilidad | Debe entregarse una guía de instalación o despliegue reproducible. | Un técnico puede reinstalar o desplegar la solución siguiendo la guía entregada. | Must |
+| RNF-15 | Compatibilidad | El sistema debe ser accesible desde navegadores web modernos. | Funciona correctamente en Chrome, Edge y Firefox recientes. | Must |
+| RNF-16 | Compatibilidad | La interfaz debe adaptarse a diferentes tamaños de pantalla. | La solución es usable en escritorio, tablet y móvil. | Must |
+| RNF-17 | Interoperabilidad | La publicación de datos y metadatos debe alinearse a la normativa de GeoBolivia e IDE-EPB. | La solución puede validarse técnicamente como compatible con el nodo GeoBolivia. | Must |
+| RNF-18 | Entrega técnica | Todo el código, documentación y activos digitales producidos deben ser entregados a la institución. | Se entrega paquete completo con código fuente, manuales, configuraciones y artefactos definidos. | Must |
 
-### RNF-01: Manuales de usuario y administrador
-- **Descripción:** El sistema debe incluir manuales de usuario y administrador completos.
-- **Fuente TDR:** Producto 4: "con manuales de usuario y administrador"
-- **Justificación:** La transferencia de conocimiento es esencial para la sostenibilidad.
-- **Métrica de Éxito:** Se entregan dos manuales (usuario final y administrador técnico) en formato PDF y/o HTML, con capturas de pantalla, procedimientos paso a paso y resolución de problemas comunes.
+## Requerimientos DevOps
 
-### RNF-02: Idioma español
-- **Descripción:** La interfaz de usuario y toda la documentación deben estar en español.
-- **Fuente TDR:** (Implícito por ser una institución boliviana) y consistente con la documentación del proyecto.
-- **Justificación:** Los usuarios y mantenedores son hispanohablantes.
-- **Métrica de Éxito:** 100% de los textos en interfaz, mensajes, manuales y documentación técnica en español, con terminología técnica adecuada.
+## 3.6 Requisitos DevOps, Operación y Entrega Técnica
 
-### RNF-03: Curva de aprendizaje
-- **Descripción:** El sistema debe ser intuitivo para los técnicos de GeoBolivia, requiriendo mínimo entrenamiento.
-- **Fuente TDR:** (Implícito en la necesidad de fortalecimiento de capacidades)
-- **Justificación:** La transferencia efectiva requiere que el sistema sea comprensible.
-- **Métrica de Éxito:** Un técnico de GeoBolivia con perfil promedio debe poder realizar las tareas principales (consultar, filtrar, descargar) sin asistencia después de 2 horas de exploración.
-
-
-## 3.2 RENDIMIENTO (RNF-04 al RNF-07)
-
-### RNF-04: Tiempo de carga del dashboard
-- **Descripción:** El dashboard debe cargar en un tiempo aceptable para una buena experiencia de usuario.
-- **Fuente TDR:** (Implícito en la expectativa de calidad)
-- **Justificación:** Los usuarios abandonan sistemas lentos.
-- **Métrica de Éxito:** Tiempo de carga inicial del dashboard < 5 segundos en conexión de 10 Mbps (medido con herramientas como Lighthouse).
-
-### RNF-05: Latencia de actualización en tiempo real
-- **Descripción:** Los cambios en la base de datos deben reflejarse en el dashboard con latencia mínima.
-- **Fuente TDR:** Producto 3: "actualizando a tiempo real"
-- **Justificación:** La utilidad de los datos climáticos depende de su actualidad.
-- **Métrica de Éxito:** Latencia máxima de 30 segundos entre la modificación en base de datos y la visualización en el dashboard.
-
-### RNF-06: Concurrencia de usuarios
-- **Descripción:** El sistema debe soportar múltiples usuarios accediendo simultáneamente sin degradación significativa del rendimiento.
-- **Fuente TDR:** (Implícito por ser un servicio público)
-- **Justificación:** GeoBolivia es un portal nacional con múltiples usuarios potenciales.
-- **Métrica de Éxito:** El sistema mantiene tiempos de respuesta aceptables (< 5 segundos para carga, < 2 segundos para interacciones) con 50 usuarios concurrentes.
-
-### RNF-07: Optimización de consultas geoespaciales
-- **Descripción:** Las consultas a la base de datos geoespacial deben estar optimizadas para rendimiento.
-- **Fuente TDR:** Producto 3: "datos dinámicos que se vayan actualizando a tiempo real"
-- **Justificación:** Las consultas geoespaciales pueden ser computacionalmente costosas.
-- **Métrica de Éxito:** Las consultas de datos geoespaciales con hasta 10,000 registros responden en menos de 2 segundos.
-
-
-## 3.3 SEGURIDAD (RNF-08 al RNF-11)
-
-### RNF-08: Propiedad intelectual del código
-- **Descripción:** Todo el código fuente desarrollado debe ser entregado y pasar a ser propiedad exclusiva de Vicepresidencia y PRO-RURAL.
-- **Fuente TDR:** Sección 16: "La documentación que se produzca... será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL"
-- **Justificación:** El estado debe ser dueño de las herramientas que financia.
-- **Métrica de Éxito:** Entrega de repositorio completo con código fuente, sin ofuscación, incluyendo todos los archivos necesarios para reconstruir el sistema.
-
-### RNF-09: Confidencialidad de la información
-- **Descripción:** El consultor y el sistema deben garantizar la confidencialidad de la información a la que se accede durante la consultoría.
-- **Fuente TDR:** Sección 15: "guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio"
-- **Justificación:** Puede haber datos sensibles de instituciones o de planificación estatal.
-- **Métrica de Éxito:** Firma de acuerdo de confidencialidad y diseño que respete niveles de acceso si existieran.
-
-### RNF-10: Integridad de datos
-- **Descripción:** Los procesos de ingesta y transformación de datos deben preservar la integridad de la información original.
-- **Fuente TDR:** (Implícito en la calidad esperada)
-- **Justificación:** Decisiones basadas en datos corruptos pueden tener consecuencias graves.
-- **Métrica de Éxito:** Los procesos ETL incluyen validaciones de integridad (ej: conteo de registros, checksums, validación de esquemas) y registran errores.
-
-### RNF-11: Control de acceso básico
-- **Descripción:** El sistema debe implementar control de acceso para funciones administrativas.
-- **Fuente TDR:** (Implícito en profesionalismo esperado)
-- **Justificación:** No todos los usuarios deben poder modificar configuraciones o datos.
-- **Métrica de Éxito:** Existe al menos un rol de administrador con acceso a funciones de gestión, y roles de usuario con acceso solo a consulta/visualización.
-
-
-## 3.4 MANTENIBILIDAD (RNF-12 al RNF-15)
-
-### RNF-12: Documentación técnica completa
-- **Descripción:** El sistema debe incluir documentación técnica detallada que permita su mantenimiento futuro.
-- **Fuente TDR:** Producto 4: "documentación del sistema"
-- **Justificación:** Los técnicos de GeoBolivia deben poder mantener y evolucionar el sistema.
-- **Métrica de Éxito:** Documentación incluye: arquitectura del sistema, modelo de datos, descripción de componentes, dependencias, configuración, y procedimientos de respaldo.
-
-### RNF-13: Scripts de mantenimiento
-- **Descripción:** Se deben entregar scripts de mantenimiento para tareas comunes (backup, actualización, limpieza).
-- **Fuente TDR:** Producto 4: "incluyendo scripts de mantenimiento si lo hubiese"
-- **Justificación:** Automatizar tareas recurrentes reduce errores.
-- **Métrica de Éxito:** Scripts documentados con instrucciones de uso, probados y funcionales.
-
-### RNF-14: Código fuente comentado
-- **Descripción:** El código fuente debe estar comentado en las partes de lógica compleja.
-- **Fuente TDR:** Producto 4: "documentación del sistema" (implícito)
-- **Justificación:** Facilita la comprensión y modificación futura por otros desarrolladores.
-- **Métrica de Éxito:** Al menos el 30% de las líneas de lógica de negocio incluyen comentarios explicativos.
-
-### RNF-15: Guía de instalación
-- **Descripción:** El sistema debe incluir una guía de instalación paso a paso.
-- **Fuente TDR:** (Implícito en la necesidad de transferencia)
-- **Justificación:** Si el sistema debe reinstalarse o migrarse, debe ser posible hacerlo sin el consultor original.
-- **Métrica de Éxito:** Guía que permita a un técnico con perfil adecuado instalar el sistema desde cero en menos de 4 horas.
-
----
-
-## 3.5 COMPATIBILIDAD Y PORTABILIDAD (RNF-16 al RNF-18)
-
-### RNF-16: Compatibilidad con navegadores principales
-- **Descripción:** El sistema debe ser compatible con los navegadores web más utilizados.
-- **Fuente TDR:** Producto 3: "entorno web accesible"
-- **Justificación:** Los usuarios utilizan diferentes navegadores según preferencia o política institucional.
-- **Métrica de Éxito:** Funcionalidad completa en versiones recientes (últimas 2) de: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari.
-
-### RNF-17: Diseño responsivo
-- **Descripción:** La interfaz debe adaptarse a diferentes tamaños de pantalla.
-- **Fuente TDR:** Producto 3: "desde cualquier dispositivo"
-- **Justificación:** Los tomadores de decisiones pueden acceder desde tablets o smartphones.
-- **Métrica de Éxito:** La interfaz es utilizable en resoluciones desde 320px (iPhone SE) hasta 3840px (4K), sin pérdida de funcionalidad.
-
-### RNF-18: Compatibilidad con estándares IDE-EPB
-- **Descripción:** Los servicios publicados deben ser compatibles con la Infraestructura de Datos Espaciales del Estado.
-- **Fuente TDR:** Producto 2: "normativa técnica establecida en la Infraestructura de Datos Espaciales del Estado Plurinacional de Bolivia y su nodo GeoBolivia"
-- **Justificación:** El sistema debe integrarse como nodo de GeoBolivia.
-- **Métrica de Éxito:** Los servicios cumplen con estándares OGC (WMS, WFS) si aplica, y los metadatos siguen el perfil IDE-EPB.
-
-## 3.6 ENTREGA DE ACTIVOS
-
-### RNF-19: Entrega de activos digitales
-- **Descripción:** El consultor debe entregar todos los activos digitales generados (código, bases de datos, manuales, configuraciones) a la Vicepresidencia.
-- **Fuente TDR:** Sección 16 (Propiedad Intelectual)
-- **Justificación:** Garantizar que la institución pueda usar el sistema sin depender del consultor.
-- **Criterio de Aceptación:** Se entrega un paquete con código fuente, base de datos, manuales y configuraciones.
-
-## 3.7 REQUERIMIENTOS DEVOPS
-
-### RNF-20: Control de versiones con Git
-- **Descripción:** Todo el código debe estar en Git con commits descriptivos.
-- **Justificación:** Poder ver el historial de cambios y volver a versiones anteriores.
-- **Criterio de Aceptación:** Repositorio Git entregado con historial completo.
-
-### RNF-21: Documentación del código
-- **Descripción:** El código debe tener comentarios explicativos.
-- **Justificación:** Que otro programador pueda entenderlo después.
-- **Criterio de Aceptación:** Las partes complejas del código tienen comentarios.
-
-### RNF-22: Scripts de mantenimiento
-- **Descripción:** Entregar scripts para tareas como respaldos y actualizaciones.
-- **Justificación:** Automatizar tareas repetitivas.
-- **Criterio de Aceptación:** Scripts funcionando y documentados.
-
-### RNF-23: Guía de instalación
-- **Descripción:** Manual paso a paso para instalar el sistema desde cero.
-- **Justificación:** Si el servidor falla, poder reinstalarlo fácilmente.
-- **Criterio de Aceptación:** Guía que permita instalar el sistema en menos de 2 horas.
-
-[04_Restricciones.md](04_Restricciones.md)
+| ID | Descripción técnica | Criterio de aceptación | Prioridad |
+|---|---|---|---|
+| RDEV-01 | El código fuente del sistema debe entregarse en un repositorio versionado y estructurado de forma clara para su transferencia institucional. | Se entrega repositorio con estructura clara, historial de cambios y acceso institucional al contenido final. | Must |
+| RDEV-02 | La solución debe incluir una estructura técnica clara que permita identificar componentes principales, configuración y documentación del sistema. | El repositorio contiene organización coherente de carpetas y archivos técnicos de la solución final. | Must |
+| RDEV-03 | La documentación técnica debe mantenerse alineada con la versión final del sistema entregado. | Los manuales, la guía técnica y la estructura documentada coinciden con el sistema realmente entregado. | Must |
+| RDEV-04 | La solución debe incluir una guía de instalación o despliegue reproducible para permitir reinstalación institucional. | Un técnico puede reinstalar el sistema siguiendo la guía entregada sin depender del consultor original. | Must |
+| RDEV-05 | Si la solución utiliza componentes como GeoServer, Django o base de datos geográfica, su configuración esencial debe quedar documentada. | La documentación administrativa incluye parámetros básicos de despliegue, dependencias y configuración mínima necesaria. | Must |
+| RDEV-06 | Deben entregarse scripts o procedimientos documentados para tareas recurrentes de mantenimiento. | Se incluyen scripts o instrucciones para respaldo, actualización o limpieza, si forman parte de la solución final. | Should |
+| RDEV-07 | El sistema debe registrar el resultado de las cargas de datos para facilitar seguimiento operativo. | Cada carga deja evidencia de fecha, estado, validación y resultado en el módulo administrativo o en el registro correspondiente. | Must |
+| RDEV-08 | El proceso de carga de datos debe incorporar una etapa previa de validación antes de afectar la base principal. | Los archivos cargados pasan por una validación previa y solo se insertan a producción si cumplen las reglas definidas. | Must |
+| RDEV-09 | El sistema debe mostrar mensajes de error legibles para el usuario durante la validación de cargas. | Ante errores de estructura o integridad, el sistema informa el problema sin exponer mensajes técnicos incomprensibles. | Must |
+| RDEV-10 | La solución debe permitir actualización incremental de datos sin requerir intervención del desarrollador en cada carga. | El personal autorizado puede ejecutar nuevas cargas desde el módulo administrativo siguiendo el flujo definido. | Must |
+| RDEV-11 | La solución debe conservar trazabilidad básica de las cargas de datos realizadas por usuarios autorizados. | El sistema conserva evidencia mínima de quién realizó una carga, cuándo la realizó y si fue aceptada o rechazada. | Should |
+| RDEV-12 | La entrega técnica debe incluir los activos necesarios para operar la solución después de la consultoría. | Se entregan código fuente, configuraciones, manuales, guías, scripts y demás artefactos comprometidos en la solución final. | Must |
+| RDEV-13 | La documentación debe facilitar la transferencia de conocimiento al equipo técnico institucional. | El manual de administrador y la guía técnica permiten a la institución comprender operación, configuración y mantenimiento básico. | Must |
+| RDEV-14 | La solución debe contemplar separación entre información pública y restringida dentro del flujo operativo. | La operación del sistema distingue visualización pública y acceso restringido según reglas de autenticación y rol. | Must |
+| RDEV-15 | La publicación de información debe ser consistente con la estructura interoperable requerida por GeoBolivia e IDE-EPB. | Los datos y metadatos entregados o publicados pueden ser revisados técnicamente según la normativa aplicable. | Must |
+| RDEV-16 | La solución debe ser sostenible institucionalmente una vez concluida la consultoría. | El sistema puede seguir operándose con personal técnico institucional usando manuales, módulo administrativo y guía de instalación. | Must |
