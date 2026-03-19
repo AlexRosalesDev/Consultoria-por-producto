@@ -1,6 +1,6 @@
 # 3. Requerimientos No Funcionales
 
-Los siguientes requerimientos no funcionales fueron definidos con base en el TDR del proyecto y en la entrevista realizada al stakeholder. Se incluyen atributos de calidad, restricciones operativas del sistema y requisitos técnicos de entrega relacionados con mantenimiento, despliegue y sostenibilidad institucional.
+Los requerimientos no funcionales incluye atributos de calidad, restricciones operativas del sistema y requisitos técnicos de entrega relacionados con mantenimiento, despliegue y sostenibilidad institucional.
 
 | ID | Categoría | Descripción técnica | Métrica de éxito | Prioridad |
 |---|---|---|---|---|
