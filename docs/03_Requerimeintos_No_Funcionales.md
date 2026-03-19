@@ -2,9 +2,6 @@
 
 **Total de Requerimientos No Funcionales: 18**
 **Numeración:** RNF-01 al RNF-18
-**Base:** Análisis exhaustivo de todas las secciones del TDR
-
----
 
 ## 3.1 USABILIDAD (RNF-01 al RNF-03)
 

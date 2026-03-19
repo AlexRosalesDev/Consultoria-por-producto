@@ -41,7 +41,7 @@ La Agencia Suiza para el Desarrollo y la Cooperación (COSUDE), junto al Estado 
 
 ## 1.3 OBJETIVO DE LA CONSULTORÍA 
 
-> *"Procesar y sistematizar la información geográfica y estadística en el ámbito de cambio climático referida al sector agropecuario y agua/bosques de las instituciones públicas y/o privadas."*
+Procesar y sistematizar la información geográfica y estadística en el ámbito de cambio climático referida al sector agropecuario y agua/bosques de las instituciones públicas y/o privadas.
 
 ## 1.4 RESULTADOS ESPERADOS DEL CONVENIO (Sección 1.1)
 
@@ -150,10 +150,10 @@ Basado en análisis exhaustivo de todas las secciones del TDR (1, 3, 5, 6, 7, 8,
 ## 1.8 PROPIEDAD INTELECTUAL Y CONFIDENCIALIDAD
 
 **Propiedad Intelectual (Sección 16):**
-> *"La documentación que se produzca bajo los términos de esta consultoría será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL, quienes tendrán los derechos de propiedad exclusivos sobre la misma. Este derecho continuará vigente aún concluida la relación contractual de las partes."*
+La documentación que se produzca bajo los términos de esta consultoría será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL, quienes tendrán los derechos de propiedad exclusivos sobre la misma. Este derecho continuará vigente aún concluida la relación contractual de las partes.
 
 **Confidencialidad (Sección 15):**
-> *"El/La postulante, deberá comprometerse a guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio."*
+El/La postulante, deberá comprometerse a guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio
 
 ---
 

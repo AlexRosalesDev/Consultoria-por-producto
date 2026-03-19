@@ -2,9 +2,6 @@
 
 **Total de Restricciones: 13**
 **Numeración:** RTR-01 al RTR-13
-**Base:** Análisis exhaustivo de todas las secciones del TDR
-
----
 
 ## 4.1 RESTRICCIONES DE TIEMPO (RTR-01 al RTR-04)
 

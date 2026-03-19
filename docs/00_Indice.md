@@ -2,8 +2,6 @@
 
 **Proyecto:** Consultoría en Desarrollo de Sistemas - GeoBolivia
 **Documento Fuente:** TDR "Consultor en Desarrollo de Sistemas - 2da Convocatoria" (PRO-RURAL / Vicepresidencia)
-**Fecha de Análisis:** [Fecha actual]
-**Versión SRS:** 1.0 (Derivación exhaustiva del TDR)
 
 ## ESTRUCTURA COMPLETA DEL DOCUMENTO
 
