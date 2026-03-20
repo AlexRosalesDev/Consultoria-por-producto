@@ -13,7 +13,7 @@ La documentación fue organizada para separar claramente:
 - Historias de usuario
 - Prototipo y validación visual
 
-## Documentación incluida
+## Documentación 
 
 | Archivo | Contenido |
 |---|---|
@@ -25,17 +25,6 @@ La documentación fue organizada para separar claramente:
 | [05_Historias_de_Usuario.md](docs/05_Historias_de_Usuario.md) | Historias de usuario, trazabilidad RF → HU y priorización del backlog |
 | [06_Prototipo_y_Validacion.md](docs/06_Prototipo_y_Validacion.md) | Flujo seleccionado para prototipo, justificación y criterios de validación |
 
-## Documentación incluida
-
-| Archivo | Contenido |
-|---|---|
-| `00_Indice.md` | Índice general del documento |
-| `01_Introduccion_y_Contexto.md` | Antecedentes, marco institucional, stakeholders, alcance y condiciones del proyecto |
-| `02_Requerimientos_Funcionales.md` | Requerimientos funcionales del sistema con prioridad y criterios de aceptación |
-| `03_Requerimientos_No_Funcionales.md` | Requerimientos no funcionales, operación, entrega técnica y soporte |
-| `04_Restricciones.md` | Restricciones de tiempo, presupuesto, técnicas, contractuales y legales |
-| `05_Historias_de_Usuario.md` | Historias de usuario, trazabilidad RF → HU y priorización del backlog |
-| `06_Prototipo_y_Validacion.md` | Flujo seleccionado para prototipo, justificación y criterios de validación |
 
 ## Base documental
 - **TDR:** Consultor en Desarrollo de Sistemas - 2da Convocatoria
