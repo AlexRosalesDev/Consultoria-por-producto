@@ -1,7 +1,7 @@
 # 1. Introducción y Contexto
 
 ## 1.1 Antecedentes del proyecto
-La consultoría “Desarrollo de Sistemas - GeoBolivia” se enmarca en las acciones impulsadas por la Agencia Suiza para el Desarrollo y la Cooperación (COSUDE) junto al Estado boliviano para la conservación del medio ambiente y la gestión del cambio climático en la zona andina de Bolivia.
+La consultoría Desarrollo de Sistemas - GeoBolivia se enmarca en las acciones impulsadas por la Agencia Suiza para el Desarrollo y la Cooperación (COSUDE) junto al Estado boliviano para la conservación del medio ambiente y la gestión del cambio climático en la zona andina de Bolivia.
 
 En este contexto, el proyecto Biocultura y Cambio Climático (BBC), desarrollado en varias fases entre 2009 y 2023, promovió avances en modelos territoriales de adaptación al cambio climático en más de 30 municipios. Como parte de la continuidad de estas acciones, se suscribió un Convenio de Cooperación Interinstitucional entre la Vicepresidencia del Estado Plurinacional de Bolivia y la Asociación Civil Boliviana para el Desarrollo Rural (PRO-RURAL), con el fin de fortalecer las capacidades técnicas de GeoBolivia para brindar información útil en la toma de decisiones en el ámbito de cambio climático.
 
