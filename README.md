@@ -2,37 +2,38 @@
 
 ## Sistema de Tableros de Control Geoespacial para Cambio Climático
 
-### Descripción General
-Este repositorio contiene la **Especificación de Requerimientos de Software (SRS)** para la consultoría de "Desarrollo de Sistemas" de GeoBolivia
-### Documentación Incluida
+## Descripción general
+Este repositorio contiene la Especificación de Requerimientos de Software (SRS) del proyecto **GeoBolivia**, elaborada con base en el TDR de la consultoría “Desarrollo de Sistemas” y en la entrevista de levantamiento de requerimientos realizada al stakeholder.
 
-| Archivo | Contenido | Elementos |
-|---------|-----------|-----------|
-| `00_Indice.md` | Índice maestro y resumen cuantitativo | Estructura completa |
-| `01_Introduccion_y_Contexto.md` | Antecedentes, stakeholders (14), alcance, condiciones | 14 stakeholders |
-| `02_Requerimientos_Funcionales.md` | 28 requerimientos funcionales detallados | RF-01 al RF-28 |
-| `03_Requerimientos_No_Funcionales_DevOps.md` | 18 requerimientos no funcionales | RNF-01 al RNF-18 |
-| `04_Restricciones.md` | 13 restricciones de tiempo, presupuesto, técnicas y legales | RTR-01 al RTR-13 |
+La documentación fue organizada para separar claramente:
+- introducción y contexto
+- requerimientos funcionales
+- requerimientos no funcionales
+- restricciones del proyecto
+- historias de usuario
+- prototipo y validación visual
 
-### Métricas del Documento
+## Documentación incluida
 
-| Categoría | Cantidad |
-|-----------|----------|
-| Stakeholders identificados | 14 |
-| Requerimientos Funcionales | 28 |
-| Requerimientos No Funcionales | 18 |
-| Restricciones | 13 |
-| **Total de elementos** | **73** |
+| Archivo | Contenido |
+|---|---|
+| `00_Indice.md` | Índice general del documento |
+| `01_Introduccion_y_Contexto.md` | Antecedentes, marco institucional, stakeholders, alcance y condiciones del proyecto |
+| `02_Requerimientos_Funcionales.md` | Requerimientos funcionales del sistema con prioridad y criterios de aceptación |
+| `03_Requerimientos_No_Funcionales.md` | Requerimientos no funcionales, operación, entrega técnica y soporte |
+| `04_Restricciones.md` | Restricciones de tiempo, presupuesto, técnicas, contractuales y legales |
+| `05_Historias_de_Usuario.md` | Historias de usuario, trazabilidad RF → HU y priorización del backlog |
+| `06_Prototipo_y_Validacion.md` | Flujo seleccionado para prototipo, justificación y criterios de validación |
 
-### Base Legal y Contractual
-- **TDR:** "Consultor en Desarrollo de Sistemas - 2da Convocatoria"
-- **Institución:** PRO-RURAL / Vicepresidencia del Estado Plurinacional de Bolivia
-- **Convenio Marco:** COSUDE - Estado boliviano (Proyecto Biocultura y Cambio Climático - BBC Fase III)
-- **Plataforma Destino:** GeoBolivia (www.geo.gob.bo) / IDE-EPB
+## Base documental
+- **TDR:** Consultor en Desarrollo de Sistemas - 2da Convocatoria
+- **Instituciones:** PRO-RURAL / Vicepresidencia del Estado Plurinacional de Bolivia
+- **Convenio marco:** COSUDE - Estado boliviano (Proyecto Biocultura y Cambio Climático)
+- **Plataforma destino:** GeoBolivia / IDE-EPB
 
-### Uso de este Documento
-Este SRS debe ser utilizado como:
-- Base para el desarrollo del sistema
-- Guía para la validación con stakeholders
-- Referencia para la elaboración de propuestas técnicas
-- Checklist para la aceptación de productos
+## Uso del documento
+Este repositorio sirve como:
+- base para el desarrollo del sistema
+- guía para validación con stakeholders
+- apoyo para la organización del backlog
+- referencia para prototipado y documentación del proyecto
