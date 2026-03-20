@@ -1,89 +1,44 @@
-# 4. RESTRICCIONES DEL PROYECTO - EXTREMADAMENTE DETALLADAS
+# 4. Restricciones del Proyecto
 
-**Total de Restricciones: 13**
-**Numeración:** RTR-01 al RTR-13
+Las siguientes restricciones fueron identificadas con base en el TDR del proyecto y representan condiciones obligatorias que afectan la ejecución, entrega, integración y cierre de la consultoría.
 
-## 4.1 RESTRICCIONES DE TIEMPO (RTR-01 al RTR-04)
+## 4.1 Restricciones de tiempo
 
-### RTR-01: Duración máxima de la consultoría
-- **Descripción:** La consultoría tiene una duración máxima de 45 días calendario a partir de la firma del contrato.
-- **Fuente TDR:** Sección 8: "La consultoría tendrá una duración de hasta 45 (cuarenta y cinco) días calendario a partir de la firma del contrato"
-- **Implicación:** El desarrollo debe planificarse en sprints cortos (1-2 semanas) con entregables tempranos. No hay posibilidad de extensiones sin renegociación.
+| ID | Restricción | Fuente | Implicación |
+|---|---|---|---|
+| RTR-01 | La consultoría tiene una duración máxima de 45 días calendario. | TDR, Sección 8 | El desarrollo debe ajustarse estrictamente al plazo definido. |
+| RTR-02 | La consultoría exige dedicación exclusiva de hasta 19 días calendario al mes. | TDR, Sección 8 | El trabajo debe planificarse con disponibilidad suficiente para reuniones y entregables. |
+| RTR-03 | El Producto 1 debe entregarse a los 3 días calendario de iniciada la consultoría. | TDR, Sección 4 | El plan de trabajo debe elaborarse casi de inmediato. |
+| RTR-04 | La revisión institucional no debe superar 2 días hábiles y los ajustes otros 2 días hábiles. | TDR, Sección 9 | El cronograma debe contemplar revisión y corrección de observaciones. |
 
-### RTR-02: Dedicación exclusiva
-- **Descripción:** El consultor debe dedicarse de manera exclusiva al proyecto hasta 19 días calendario al mes.
-- **Fuente TDR:** Sección 8: "sin horario fijo y bajo dedicación exclusiva de hasta 19 días calendario al mes"
-- **Implicación:** El consultor no puede tener otro trabajo de tiempo completo simultáneamente. Debe disponibilidad para reuniones presenciales.
+## 4.2 Restricciones de presupuesto
 
-### RTR-03: Plazo de entrega del Producto 1
-- **Descripción:** El Producto 1 (Plan de Trabajo) debe entregarse a los 3 días calendario de iniciada la consultoría.
-- **Fuente TDR:** Sección 4: "Producto 1: Plan de Trabajo de la Consultoría a los 3 (tres) días calendario de iniciada la consultoría"
-- **Implicación:** El plan debe ser concreto y realista, elaborado casi inmediatamente después del inicio.
+| ID | Restricción | Fuente | Implicación |
+|---|---|---|---|
+| RTR-05 | El presupuesto máximo de la consultoría es Bs. 45.000. | TDR, Sección 11 | La solución propuesta debe mantenerse dentro de ese monto total. |
+| RTR-06 | El pago es único y se realiza contra presentación y aprobación de todos los productos. | TDR, Sección 11 | La consultoría depende del cierre completo y aprobado para el desembolso. |
+| RTR-07 | La factura es un requisito excluyente para el pago. | TDR, Sección 11 | El consultor debe cumplir con la condición formal de facturación. |
 
-### RTR-04: Plazos de revisión y ajustes
-- **Descripción:** La revisión de productos toma máximo 2 días hábiles, y los ajustes otros 2 días hábiles.
-- **Fuente TDR:** Sección 9: "La revisión del Informe Final... no superará los 2 (dos) días hábiles y el plazo de ajuste... no superará los 2 (dos) días hábiles"
-- **Implicación:** El cronograma debe considerar estos ciclos de revisión. Respuestas rápidas a observaciones son críticas.
+## 4.3 Restricciones técnicas
 
+| ID | Restricción | Fuente | Implicación |
+|---|---|---|---|
+| RTR-08 | La solución debe cumplir con la normativa técnica de IDE-EPB y su nodo GeoBolivia. | TDR, Producto 2 | El diseño debe considerar estándares geoespaciales, metadatos y formatos compatibles. |
+| RTR-09 | La solución debe integrarse con GeoBolivia, no reemplazar su infraestructura base. | TDR, Antecedentes y Producto 2 | La arquitectura debe ser compatible con la plataforma institucional existente. |
+| RTR-10 | El perfil del proyecto se alinea con tecnologías y conocimientos en bases de datos, frontend, inteligencia de negocios y Python con Django. | TDR, Sección 5.1 | La propuesta técnica debe mantener coherencia con ese entorno de trabajo esperado. |
 
-## 4.2 RESTRICCIONES DE PRESUPUESTO (RTR-05 al RTR-07)
+## 4.4 Restricciones contractuales y legales
 
-### RTR-05: Presupuesto máximo
-- **Descripción:** El presupuesto máximo para la consultoría es de Bs. 45.000 (Cuarenta y cinco mil 00/100 bolivianos).
-- **Fuente TDR:** Sección 11: "El presupuesto máximo para el servicio de la consultoría es de Bs. 45.000"
-- **Implicación:** La propuesta económica no debe exceder este monto. Incluye todos los costos.
+| ID | Restricción | Fuente | Implicación |
+|---|---|---|---|
+| RTR-11 | Toda la documentación y código producido será propiedad exclusiva de Vicepresidencia y PRO-RURAL. | TDR, Sección 16 | La entrega final debe incluir todos los activos sin reservas de propiedad por parte del consultor. |
+| RTR-12 | Debe mantenerse absoluta confidencialidad sobre la información accesible durante y después de la ejecución. | TDR, Sección 15 | No se puede divulgar información técnica, institucional o sensible sin autorización. |
+| RTR-13 | La modalidad de contratación es por invitación pública, conforme a procedimientos de PRO-RURAL. | TDR, Sección 7 | La propuesta debe adecuarse al marco formal de contratación definido por la institución. |
 
-### RTR-06: Pago único contra entrega total
-- **Descripción:** Se efectuará un único pago contra presentación y aprobación del total de los productos.
-- **Fuente TDR:** Sección 11: "Se efectuará un único pago contra presentación y aprobación del total de los productos"
-- **Implicación:** El consultor debe financiar los 45 días de trabajo con recursos propios. Flujo de caja crítico. Riesgo de pago retrasado si hay observaciones.
+## 4.5 Matriz de correlación restricciones - productos TDR
 
-### RTR-07: Factura como requisito excluyente
-- **Descripción:** El pago requiere la entrega de factura (requisito excluyente).
-- **Fuente TDR:** Sección 11: "El pago será realizado contra entrega de factura (requisito excluyente)"
-- **Implicación:** El consultor debe estar inscrito en NIT y habilitado para facturar. Sin factura, no hay pago.
-
-
-## 4.3 RESTRICCIONES TÉCNICAS (RTR-08 al RTR-10)
-
-### RTR-08: Cumplimiento de normativa IDE-EPB
-- **Descripción:** El sistema debe cumplir con la normativa técnica de la Infraestructura de Datos Espaciales del Estado Plurinacional de Bolivia (IDE-EPB).
-- **Fuente TDR:** Producto 2: "normativa técnica establecida en la Infraestructura de Datos Espaciales del Estado Plurinacional de Bolivia y su nodo GeoBolivia"
-- **Implicación:** El desarrollo debe considerar estándares de metadatos, sistemas de referencia, y formatos desde el diseño inicial.
-
-### RTR-09: Integración con plataforma GeoBolivia
-- **Descripción:** El sistema debe ser implementado como un nodo compatible con GeoBolivia (www.geo.gob.bo).
-- **Fuente TDR:** Antecedentes y Producto 2: "su nodo GeoBolivia"
-- **Implicación:** La arquitectura debe permitir integración mediante estándares. Debe coordinarse con el equipo técnico de GeoBolivia.
-
-### RTR-10: Tecnologías sugeridas por el perfil
-- **Descripción:** El perfil del consultor sugiere conocimiento en: bases de datos, tecnología Front-end, inteligencia de negocios, Python con framework Django.
-- **Fuente TDR:** Sección 5.1: "Cursos de manejo de bases de datos y/o Cursos en tecnología Front-end y/o Cursos en uso de tecnologías de Inteligencia de negocios y/o Cursos en uso de tecnologías Python con framework Django"
-- **Implicación:** Aunque no es restrictivo, usar estas tecnologías aumenta probabilidad de éxito y alineación con expectativas.
-
-
-## 4.4 RESTRICCIONES CONTRACTUALES Y LEGALES (RTR-11 al RTR-13)
-
-### RTR-11: Propiedad intelectual exclusiva
-- **Descripción:** Toda la documentación y código producido será propiedad exclusiva de Vicepresidencia y PRO-RURAL, incluso después de concluida la relación contractual.
-- **Fuente TDR:** Sección 16: "La documentación que se produzca... será de propiedad exclusiva de la Vicepresidencia del Estado Plurinacional y PRO-RURAL, quienes tendrán los derechos de propiedad exclusivos sobre la misma. Este derecho continuará vigente aún concluida la relación contractual de las partes."
-- **Implicación:** El consultor no puede reutilizar el código en otros proyectos sin autorización explícita. Debe entregar todo sin reservas.
-
-### RTR-12: Confidencialidad absoluta
-- **Descripción:** El consultor debe guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución.
-- **Fuente TDR:** Sección 15: "guardar absoluta confidencialidad sobre la información a la que tenga acceso durante y después de la ejecución del servicio"
-- **Implicación:** No se puede divulgar información de instituciones proveedoras, datos internos de GeoBolivia, o detalles del proyecto sin autorización.
-
-### RTR-13: Modalidad de contratación
-- **Descripción:** La contratación es por invitación pública, de acuerdo a procedimientos de PRO-RURAL.
-- **Fuente TDR:** Sección 7: "Invitación pública, de acuerdo a procedimientos establecidos por Pro-Rural"
-- **Implicación:** Existe un proceso de selección competitivo. Se deben presentar los documentos requeridos (carta, CV, propuestas técnica y económica).
-
-
-## 4.5 MATRIZ DE CORRELACIÓN RESTRICCIONES - PRODUCTOS TDR
-
-| Producto TDR | Restricciones Aplicables |
-|--------------|--------------------------|
+| Producto TDR | Restricciones aplicables |
+|---|---|
 | Producto 1: Plan de Trabajo | RTR-01, RTR-03, RTR-04 |
 | Producto 2: Informe estructura de datos | RTR-08, RTR-09 |
 | Producto 3: Aplicación Dashboard | RTR-01, RTR-02, RTR-08, RTR-09, RTR-10 |
