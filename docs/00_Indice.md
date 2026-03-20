@@ -1,133 +1,60 @@
-# ÍNDICE - ESPECIFICACIÓN DE REQUERIMIENTOS
+# Índice - Especificación de Requerimientos
 
-**Proyecto:** Consultoría en Desarrollo de Sistemas - GeoBolivia
-**Documento Fuente:** TDR "Consultor en Desarrollo de Sistemas - 2da Convocatoria" (PRO-RURAL / Vicepresidencia)
+**Proyecto:** Consultoría en Desarrollo de Sistemas - GeoBolivia  
+**Documento fuente:** TDR "Consultor en Desarrollo de Sistemas - 2da Convocatoria" (PRO-RURAL / Vicepresidencia)
 
-## ESTRUCTURA COMPLETA DEL DOCUMENTO
+## Estructura del documento
 
-### 1. INTRODUCCIÓN Y CONTEXTO (`01_Introduccion_y_Contexto.md`)
-- 1.1 Antecedentes del Proyecto (COSUDE, BBC, Vicepresidencia)
-- 1.2 Marco Institucional y Convenios
-- 1.3 Objetivo de la Consultoría (textual del TDR)
-- 1.4 Resultados Esperados del Convenio
-- 1.5 Análisis de STAKEHOLDERS (COMPLETO - 14 interesados identificados)
-  - Matriz de stakeholders con roles, influencia y expectativas
-  - Mapa de poder-interés
-  - Estrategias de gestión por stakeholder
-- 1.6 Alcance del Sistema (Inclusiones y Exclusiones explícitas)
-- 1.7 Duración, Plazos y Condiciones Contractuales
-- 1.8 Propiedad Intelectual y Confidencialidad
+### 1. Introducción y Contexto (`01_Introduccion_y_Contexto.md`)
+- 1.1 Antecedentes del proyecto
+- 1.2 Marco institucional
+- 1.3 Objetivo de la consultoría
+- 1.4 Resultados esperados del convenio
+- 1.5 Stakeholders principales
+- 1.6 Alcance del sistema
+- 1.7 Duración, plazos y condiciones contractuales
+- 1.8 Propiedad intelectual y confidencialidad
 
-### 2. REQUERIMIENTOS FUNCIONALES (`02_Requerimientos_Funcionales.md`)
-- **TOTAL: 28 REQUERIMIENTOS FUNCIONALES**
+### 2. Requerimientos Funcionales (`02_Requerimientos_Funcionales.md`)
+- Requerimientos funcionales del sistema
+- Priorización MoSCoW
+- Criterios de aceptación
 
-#### 2.1 Módulo de Procesamiento y Sistematización (RF-01 al RF-08)
-- Recopilación de información (pública/privada)
-- Procesamiento de datos geográficos y estadísticos
-- Sistematización por sectores (agropecuario, agua, bosques)
+### 3. Requerimientos No Funcionales (`03_Requerimientos_No_Funcionales.md`)
+- 3.1 Usabilidad
+- 3.2 Rendimiento
+- 3.3 Seguridad e integridad
+- 3.4 Mantenibilidad
+- 3.5 Compatibilidad e interoperabilidad
+- 3.6 Requisitos DevOps, operación y entrega técnica
 
-#### 2.2 Módulo de Análisis y Estructura de Datos (RF-09 al RF-13)
-- Análisis de estructura existente
-- Propuesta de nueva estructura
-- Análisis de base de datos actual
-- Propuesta de despliegue
+### 4. Restricciones (`04_Restricciones.md`)
+- 4.1 Restricciones de tiempo
+- 4.2 Restricciones de presupuesto
+- 4.3 Restricciones técnicas
+- 4.4 Restricciones contractuales y legales
+- 4.5 Matriz de correlación restricciones - productos TDR
 
-#### 2.3 Módulo de Gestión de Formatos Geoespaciales (RF-14 al RF-17)
-- Metadatos
-- Shapefiles
-- Normativa IDE-EPB
-- Estándares técnicos
+### 5. Historias de Usuario (`05_Historias_de_Usuario.md`)
+- 5.1 Tabla de trazabilidad RF → HU
+- 5.2 Priorización del Product Backlog
+- 5.3 Historias de usuario
+- 5.4 Criterios de aceptación
 
-#### 2.4 Módulo de Dashboard y Visualización (RF-18 al RF-24)
-- Tableros de control web
-- Actualización en tiempo real
-- Visualización por categorías
-- Mapas interactivos
-- Acceso multiplataforma
-- Búsquedas y consultas
-- Descargas de información
+### 6. Prototipo y Validación (`06_Prototipo_y_Validacion.md`)
+- 6.1 Flujo seleccionado
+- 6.2 Justificación
+- 6.3 Actores involucrados
+- 6.4 Pantallas mínimas del prototipo
+- 6.5 Historias relacionadas
+- 6.6 Criterios de validación
 
-#### 2.5 Módulo de Reportes y Apoyo a Decisiones (RF-25 al RF-28)
-- Reportes para toma de decisiones
-- Enfoque en pequeños productores
-- Generación de propuestas (notas conceptuales)
-- Integración con GeoBolivia
+## Nota de consistencia
+La estructura del documento fue reorganizada para separar claramente:
+- funciones del sistema
+- atributos de calidad
+- restricciones del proyecto
+- historias de usuario
+- flujo de prototipado
 
-### 3. REQUERIMIENTOS NO FUNCIONALES Y DEVOPS (`03_Requerimientos_No_Funcionales_DevOps.md`)
-- **TOTAL: 18 REQUERIMIENTOS NO FUNCIONALES**
-
-#### 3.1 Usabilidad (RNF-01 al RNF-03)
-- Manuales de usuario y administrador
-- Idioma español
-- Curva de aprendizaje
-
-#### 3.2 Rendimiento (RNF-04 al RNF-07)
-- Tiempo de carga
-- Latencia de actualización
-- Concurrencia de usuarios
-- Optimización de consultas
-
-#### 3.3 Seguridad (RNF-08 al RNF-11)
-- Propiedad intelectual
-- Confidencialidad
-- Integridad de datos
-- Control de acceso
-
-#### 3.4 Mantenibilidad (RNF-12 al RNF-15)
-- Documentación técnica
-- Scripts de mantenimiento
-- Código fuente documentado
-- Guía de instalación
-
-#### 3.5 Compatibilidad y Portabilidad (RNF-16 al RNF-18)
-- Navegadores soportados
-- Dispositivos (responsive)
-- Integración con IDE-EPB
-
-### 4. RESTRICCIONES (`04_Restricciones.md`)
-- **TOTAL: 13 RESTRICCIONES**
-
-#### 4.1 Restricciones de Tiempo (RTR-01 al RTR-04)
-- Plazo máximo de consultoría
-- Dedicación exclusiva
-- Plazos de entrega de productos
-- Plazos de revisión y ajustes
-
-#### 4.2 Restricciones de Presupuesto (RTR-05 al RTR-07)
-- Presupuesto máximo
-- Modalidad de pago
-- Impuestos y costos incluidos
-
-#### 4.3 Restricciones Técnicas (RTR-08 al RTR-10)
-- Cumplimiento normativa IDE-EPB
-- Integración con GeoBolivia
-- Tecnologías sugeridas (perfil)
-
-#### 4.4 Restricciones Contractuales y Legales (RTR-11 al RTR-13)
-- Propiedad intelectual
-- Confidencialidad
-- Modalidad de contratación
-
-
-## RESUMEN CUANTITATIVO
-
-| Categoría | Cantidad | Rango IDs |
-|-----------|----------|-----------|
-| Stakeholders | 14 | S-01 al S-14 |
-| Requerimientos Funcionales | 28 | RF-01 al RF-28 |
-| Requerimientos No Funcionales | 19 | RNF-01 al RNF-19 |
-| Requerimientos DevOps | 4 | RNF-20 al RNF-23 |
-| Restricciones | 13 | RTR-01 al RTR-13 |
-| **TOTAL ELEMENTOS** | **78** | - |
-
-
-## REFERENCIA CRUZADA CON PRODUCTOS TDR
-
-| Producto TDR | Requerimientos Asociados |
-|--------------|--------------------------|
-| Producto 1: Plan de Trabajo | RTR-03, RTR-04 |
-| Producto 2: Informe estructura de datos | RF-07 al RF-13, RF-15, RF-16, RNF-12 |
-| Producto 3: Aplicación Dashboard | RF-18 al RF-28, RNF-01 al RNF-07, RNF-16 al RNF-18 |
-| Producto 4: Informe Final + Documentación | RNF-01, RNF-02, RNF-12 al RNF-15, RTR-08 |
-
-[01_Introduccion_y_Contexto.md](01_Introduccion_y_Contexto.md)
+Los requerimientos fueron ajustados para mantener coherencia con el TDR y la entrevista de levantamiento.
