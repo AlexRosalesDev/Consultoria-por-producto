@@ -1,4 +1,4 @@
-# Índice - Especificación de Requerimientos
+# Indice - Especificación de Requerimientos
 
 **Proyecto:** Consultoría en Desarrollo de Sistemas - GeoBolivia  
 **Documento fuente:** TDR "Consultor en Desarrollo de Sistemas - 2da Convocatoria" (PRO-RURAL / Vicepresidencia)
