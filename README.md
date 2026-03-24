@@ -1,40 +1,16 @@
-# PROYECTO GEOBOLIVIA - ESPECIFICACIÓN DE REQUERIMIENTOS
+# React + Vite
 
-## Sistema de Tableros de Control Geoespacial para Cambio Climático
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Descripción general
-Este repositorio contiene la Especificación de Requerimientos de Software (SRS) del proyecto **GeoBolivia**, elaborada con base en el TDR de la consultoría “Desarrollo de Sistemas” y en la entrevista de levantamiento de requerimientos realizada al stakeholder.
+Currently, two official plugins are available:
 
-La documentación fue organizada para separar claramente:
-- Introducción y contexto
-- Requerimientos funcionales
-- Requerimientos no funcionales
-- Restricciones del proyecto
-- Historias de usuario
-- Prototipo y validación visual
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Documentación 
+## React Compiler
 
-| Archivo | Contenido |
-|---|---|
-| [00_Indice.md](docs/00_Indice.md) | Índice general del documento |
-| [01_Introduccion_y_Contexto.md](docs/01_Introduccion_y_Contexto.md) | Antecedentes, marco institucional, stakeholders, alcance y condiciones del proyecto |
-| [02_Requerimientos_Funcionales.md](docs/02_Requerimientos_Funcionales.md) | Requerimientos funcionales del sistema con prioridad y criterios de aceptación |
-| [03_Requerimientos_No_Funcionales.md](docs/03_Requerimientos_No_Funcionales.md) | Requerimientos no funcionales, operación, entrega técnica y soporte |
-| [04_Restricciones.md](docs/04_Restricciones.md) | Restricciones de tiempo, presupuesto, técnicas, contractuales y legales |
-| [05_Historias_de_Usuario.md](docs/05_Historias_de_Usuario.md) | Historias de usuario, trazabilidad RF → HU y priorización del backlog |
-| [06_Prototipo_y_Validacion.md](docs/06_Prototipo_y_Validacion.md) | Flujo seleccionado para prototipo, justificación y criterios de validación |
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-## Base documental
-- **TDR:** Consultor en Desarrollo de Sistemas - 2da Convocatoria
-- **Instituciones:** PRO-RURAL / Vicepresidencia del Estado Plurinacional de Bolivia
-- **Convenio marco:** COSUDE - Estado boliviano (Proyecto Biocultura y Cambio Climático)
-- **Plataforma destino:** GeoBolivia / IDE-EPB
-
-## Uso del documento
-Este repositorio sirve como:
-- base para el desarrollo del sistema
-- guía para validación con stakeholders
-- apoyo para la organización del backlog
-- referencia para prototipado y documentación del proyecto
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
