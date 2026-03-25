@@ -8,6 +8,7 @@ import {
   Legend
 } from 'chart.js';
 
+// Registrar componentes de Chart.js
 ChartJS.register(
   BarElement,
   CategoryScale,
