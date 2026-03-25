@@ -1,0 +1,9 @@
+[
+  { "dia": "Día 1", "progreso": 20 },
+  { "dia": "Día 2", "progreso": 40 },
+  { "dia": "Día 3", "progreso": 60 },
+  { "dia": "Día 4", "progreso": 80 },
+  { "dia": "Día 5", "progreso": 90 },
+  { "dia": "Día 6", "progreso": 95 },
+  { "dia": "Día 7", "progreso": 100 }
+]
