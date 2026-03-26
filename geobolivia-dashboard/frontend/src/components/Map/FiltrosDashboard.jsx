@@ -1,25 +1,35 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 
-function FiltrosDashboard() {
+function FiltrosDashboard({
+  municipios = [],
+  onAplicar,
+  onLimpiar,
+  filtrosAplicados
+}) {
   const [categoria, setCategoria] = useState('')
   const [municipio, setMunicipio] = useState('')
-  const [filtrosAplicados, setFiltrosAplicados] = useState(null)
 
   const categorias = ['Agropecuario', 'Agua', 'Bosques']
-  const municipios = ['Cochabamba', 'Quillacollo', 'Vinto', 'Sacaba', 'Tiquipaya']
+
+  const municipiosOrdenados = useMemo(() => {
+    return [...municipios].sort((a, b) => a.localeCompare(b))
+  }, [municipios])
 
   const aplicarFiltros = () => {
-    setFiltrosAplicados({
-      categoria: categoria || 'No seleccionada',
-      municipio: municipio || 'No seleccionado'
+    onAplicar({
+      categoria,
+      municipio
     })
   }
 
   const limpiarFiltros = () => {
     setCategoria('')
     setMunicipio('')
-    setFiltrosAplicados(null)
+    onLimpiar()
   }
+
+  const hayFiltros =
+    filtrosAplicados?.categoria || filtrosAplicados?.municipio
 
   return (
     <div style={styles.wrapper}>
@@ -59,7 +69,7 @@ function FiltrosDashboard() {
               <option value="" style={styles.option}>
                 Seleccione un municipio
               </option>
-              {municipios.map((item, index) => (
+              {municipiosOrdenados.map((item, index) => (
                 <option key={index} value={item} style={styles.option}>
                   {item}
                 </option>
@@ -81,16 +91,18 @@ function FiltrosDashboard() {
         <div style={styles.resultBox}>
           <h3 style={styles.resultTitle}>Estado de filtros</h3>
 
-          {filtrosAplicados ? (
+          {hayFiltros ? (
             <div>
               <p style={styles.activeText}>
                 <strong>Filtros activos</strong>
               </p>
               <p style={styles.resultText}>
-                <strong>Categoría:</strong> {filtrosAplicados.categoria}
+                <strong>Categoría:</strong>{' '}
+                {filtrosAplicados.categoria || 'No seleccionada'}
               </p>
               <p style={styles.resultText}>
-                <strong>Municipio:</strong> {filtrosAplicados.municipio}
+                <strong>Municipio:</strong>{' '}
+                {filtrosAplicados.municipio || 'No seleccionado'}
               </p>
             </div>
           ) : (
@@ -118,13 +130,15 @@ const styles = {
   title: {
     marginBottom: '8px',
     fontSize: '28px',
-    color: '#1f2937'
+    color: '#1f2937',
+    textAlign: 'center'
   },
   subtitle: {
     marginBottom: '24px',
     color: '#6b7280',
     fontSize: '15px',
-    lineHeight: '1.5'
+    lineHeight: '1.5',
+    textAlign: 'center'
   },
   formRow: {
     display: 'grid',
@@ -139,7 +153,9 @@ const styles = {
   label: {
     marginBottom: '8px',
     fontWeight: '600',
-    color: '#374151'
+    color: '#374151',
+    fontSize: '18px',
+    textAlign: 'center'
   },
   select: {
     padding: '12px',
@@ -186,15 +202,18 @@ const styles = {
   },
   resultTitle: {
     marginBottom: '12px',
-    color: '#1f2937'
+    color: '#1f2937',
+    textAlign: 'center'
   },
   activeText: {
     color: '#065f46',
-    marginBottom: '10px'
+    marginBottom: '10px',
+    textAlign: 'center'
   },
   resultText: {
     margin: '6px 0',
-    color: '#374151'
+    color: '#374151',
+    textAlign: 'center'
   }
 }
 
