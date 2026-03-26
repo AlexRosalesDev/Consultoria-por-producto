@@ -1,42 +1,70 @@
 import React from 'react'
 
-function SimpleFilter({ searchTerm, onSearchChange, onClear, totalResults }) {
+function SimpleFilter({
+  searchTerm,
+  onSearchChange,
+  minPopulation,
+  onMinPopulationChange,
+  onClear,
+  totalResults
+}) {
   return (
     <div
       style={{
-        margin: '20px 0',
+        marginBottom: '20px',
         padding: '15px',
-        background: '#1e1e1e',
-        borderRadius: '10px',
-        border: '1px solid #333'
+        background: '#f5f5f5',
+        borderRadius: '8px'
       }}
     >
-      <h3 style={{ marginBottom: '10px' }}>Filtro simple de municipios</h3>
+      <h3>Filtros combinados</h3>
 
-      <input
-        type="text"
-        placeholder="Buscar municipio por nombre..."
-        value={searchTerm}
-        onChange={(e) => onSearchChange(e.target.value)}
-        style={{
-          padding: '10px',
-          width: '300px',
-          borderRadius: '8px',
-          border: '1px solid #555',
-          marginRight: '10px'
-        }}
-      />
+      <div style={{ marginBottom: '10px' }}>
+        <label>
+          Buscar por nombre:
+        </label>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => onSearchChange(e.target.value)}
+          placeholder="Ejemplo: Cochabamba"
+          style={{
+            marginLeft: '10px',
+            padding: '5px',
+            width: '250px'
+          }}
+        />
+      </div>
+
+      <div style={{ marginBottom: '10px' }}>
+        <label>
+          Población mínima:
+        </label>
+        <input
+          type="number"
+          value={minPopulation}
+          onChange={(e) => onMinPopulationChange(e.target.value)}
+          placeholder="Ejemplo: 50000"
+          style={{
+            marginLeft: '10px',
+            padding: '5px',
+            width: '250px'
+          }}
+        />
+      </div>
 
       <button
         onClick={onClear}
         style={{
-          padding: '10px 16px',
-          borderRadius: '8px',
+          padding: '8px 12px',
           border: 'none',
+          borderRadius: '6px',
+          background: '#007bff',
+          color: 'white',
           cursor: 'pointer'
         }}
       >
-        Limpiar
+        Limpiar filtros
       </button>
 
       <p style={{ marginTop: '10px' }}>

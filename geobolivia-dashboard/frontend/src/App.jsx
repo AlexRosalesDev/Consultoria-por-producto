@@ -6,7 +6,9 @@ function App() {
   const [message, setMessage] = useState('Cargando...')
   const [markers, setMarkers] = useState([])
   const [loading, setLoading] = useState(true)
+
   const [searchTerm, setSearchTerm] = useState('')
+  const [minPopulation, setMinPopulation] = useState('')
 
   useEffect(() => {
     Promise.all([
@@ -31,12 +33,20 @@ function App() {
       })
   }, [])
 
-  const filteredMarkers = markers.filter(marker =>
-    marker.name.toLowerCase().includes(searchTerm.toLowerCase())
-  )
+  const filteredMarkers = markers.filter(marker => {
+    const matchesName = marker.name
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase())
+
+    const matchesPopulation =
+      minPopulation === '' || marker.poblacion >= Number(minPopulation)
+
+    return matchesName && matchesPopulation
+  })
 
   const handleClearFilter = () => {
     setSearchTerm('')
+    setMinPopulation('')
   }
 
   if (loading) {
@@ -52,12 +62,14 @@ function App() {
     <div style={{ padding: '20px' }}>
       <h1>🌍 GeoBolivia Dashboard</h1>
       <h2>HU-01: Dashboard con mapas e indicadores climáticos</h2>
-      <p><strong>Día 3 - Datos reales desde Django</strong></p>
+      <p><strong>Día 4 - Filtros combinados</strong></p>
       <p><strong>Municipios cargados:</strong> {markers.length}</p>
 
       <SimpleFilter
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
+        minPopulation={minPopulation}
+        onMinPopulationChange={setMinPopulation}
         onClear={handleClearFilter}
         totalResults={filteredMarkers.length}
       />
