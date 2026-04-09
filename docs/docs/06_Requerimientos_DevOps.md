@@ -1,0 +1,20 @@
+## 3.6 Requisitos DevOps, Operación y Entrega Técnica
+
+| ID | Descripción técnica | Criterio de aceptación | Prioridad |
+|---|---|---|---|
+| RDEV-01 | El código fuente del sistema debe entregarse en un repositorio versionado y estructurado de forma clara para su transferencia institucional. | Se entrega repositorio con estructura clara, historial de cambios y acceso institucional al contenido final. | Must |
+| RDEV-02 | La solución debe incluir una estructura técnica clara que permita identificar componentes principales, configuración y documentación del sistema. | El repositorio contiene organización coherente de carpetas y archivos técnicos de la solución final. | Must |
+| RDEV-03 | La documentación técnica debe mantenerse alineada con la versión final del sistema entregado. | Los manuales, la guía técnica y la estructura documentada coinciden con el sistema realmente entregado. | Must |
+| RDEV-04 | La solución debe incluir una guía de instalación o despliegue reproducible para permitir reinstalación institucional. | Un técnico puede reinstalar el sistema siguiendo la guía entregada sin depender del consultor original. | Must |
+| RDEV-05 | Si la solución utiliza componentes como GeoServer, Django o base de datos geográfica, su configuración esencial debe quedar documentada. | La documentación administrativa incluye parámetros básicos de despliegue, dependencias y configuración mínima necesaria. | Must |
+| RDEV-06 | Deben entregarse scripts o procedimientos documentados para tareas recurrentes de mantenimiento. | Se incluyen scripts o instrucciones para respaldo, actualización o limpieza, si forman parte de la solución final. | Should |
+| RDEV-07 | El sistema debe registrar el resultado de las cargas de datos para facilitar seguimiento operativo. | Cada carga deja evidencia de fecha, estado, validación y resultado en el módulo administrativo o en el registro correspondiente. | Must |
+| RDEV-08 | El proceso de carga de datos debe incorporar una etapa previa de validación antes de afectar la base principal. | Los archivos cargados pasan por una validación previa y solo se insertan a producción si cumplen las reglas definidas. | Must |
+| RDEV-09 | El sistema debe mostrar mensajes de error legibles para el usuario durante la validación de cargas. | Ante errores de estructura o integridad, el sistema informa el problema sin exponer mensajes técnicos incomprensibles. | Must |
+| RDEV-10 | La solución debe permitir actualización incremental de datos sin requerir intervención del desarrollador en cada carga. | El personal autorizado puede ejecutar nuevas cargas desde el módulo administrativo siguiendo el flujo definido. | Must |
+| RDEV-11 | La solución debe conservar trazabilidad básica de las cargas de datos realizadas por usuarios autorizados. | El sistema conserva evidencia mínima de quién realizó una carga, cuándo la realizó y si fue aceptada o rechazada. | Should |
+| RDEV-12 | La entrega técnica debe incluir los activos necesarios para operar la solución después de la consultoría. | Se entregan código fuente, configuraciones, manuales, guías, scripts y demás artefactos comprometidos en la solución final. | Must |
+| RDEV-13 | La documentación debe facilitar la transferencia de conocimiento al equipo técnico institucional. | El manual de administrador y la guía técnica permiten a la institución comprender operación, configuración y mantenimiento básico. | Must |
+| RDEV-14 | La solución debe contemplar separación entre información pública y restringida dentro del flujo operativo. | La operación del sistema distingue visualización pública y acceso restringido según reglas de autenticación y rol. | Must |
+| RDEV-15 | La publicación de información debe ser consistente con la estructura interoperable requerida por GeoBolivia e IDE-EPB. | Los datos y metadatos entregados o publicados pueden ser revisados técnicamente según la normativa aplicable. | Must |
+| RDEV-16 | La solución debe ser sostenible institucionalmente una vez concluida la consultoría. | El sistema puede seguir operándose con personal técnico institucional usando manuales, módulo administrativo y guía de instalación. | Must |
